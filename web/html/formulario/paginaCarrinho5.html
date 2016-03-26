@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>MDK Filmes - Carrinho</title>
+		<meta charset="utf-8">
+		<link rel = "stylesheet" href = "../../css/configuracoes.css">
+	</head>
+	<body>
+		<h1>Carrinho</h1>
+		
+		<h3>Itens Adicionados ao Carrinho</h3>
+		<form action = "" method = "post">
+			<table class= "tabelaCarrinho">
+			<tr>
+                            <th>	
+                                    Filme
+                            </th>
+                            <th>
+                                    Quantidade						
+                            </th>
+                            <th>
+                                    Valor
+                            </th>
+
+                    </tr>
+                    <tr>			
+                            <td>
+                                    <figure>
+                                            <img src="../../imagem/romance/qt.jpg" class = "image"/>
+                                            <figcaption>Quanto tempo</figcaption>			
+
+                                    </figure>
+                            <td>	
+                                    <input type = "number" id = "qtde_id" name = "txtQtde" min = "1" max = "100" step = "1" value = "1">
+                            </td>
+                            <td>		
+                                    R$ 17.99
+                            </td>
+
+                    </tr>
+                    <tr>
+                            <td>
+
+                            <td>	
+                                    Subtotal
+                            </td>
+                            <td>		
+                                    R$ 17,99
+                            </td>		
+                    </tr>
+                    <tr>
+                            <td>
+                                    <a href = "acesso.html" target = "frameprincipal"><input type ="button" id="botaoFinalizar" value="Finalizar">	</a>							
+                            </td>					
+                            <td>
+                                    <input type = "button" id="botaoExcluir" value = "Excluir do Carrinho">	
+                            </td>
+                            <td>
+                                    <a href = "principal.html" target = "frameprincipal"> <input type = "button" id="botaoComprando" value = "Continuar Comprando">	</a>			
+                            </td>
+
+                    </tr>
+		</table>
+		</form>
+	</body>
+	
+</html>
